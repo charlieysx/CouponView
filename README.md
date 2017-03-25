@@ -12,7 +12,7 @@
         CouponView setCvBgColor(int cvBgColor); // 设置背景颜色
         CouponView setCvStartTime(String cvStartTime); // 设置起始时间
         CouponView setCvEndTime(String cvEndTime); // 设置结束时间
-        CouponView setCvUsed(boolean cvUsed); // 设置是否可以过期
+        CouponView setCvUsed(boolean cvUsed); // 设置是否过期
         void show(); // 使前面的设置生效
         void setOnCVSubClickListener(OnCVSubClickListener onCVSubClickListener); // 设置赠送按钮的监听事件
 
