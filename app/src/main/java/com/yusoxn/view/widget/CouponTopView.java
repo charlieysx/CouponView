@@ -1,4 +1,4 @@
-package com.yusoxn.view;
+package com.yusoxn.view.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,6 +6,8 @@ import android.graphics.Paint;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
+
+import com.yusoxn.view.R;
 
 /**
  * 背景下方为锯齿状的FrameLayout

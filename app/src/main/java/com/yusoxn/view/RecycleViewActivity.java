@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.jude.easyrecyclerview.EasyRecyclerView;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.jude.easyrecyclerview.decoration.DividerDecoration;
+import com.yusoxn.view.bean.CouponBean;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,8 +1,11 @@
 package com.yusoxn.view;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+
+import com.yusoxn.view.widget.CouponView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 .setCvDescription("发单可使用")
                 .setCvStartTime("2017.03.12")
                 .setCvEndTime("2017.03.25")
+                .setCvUsed(false)
+                .setCvBgColor(Color.GREEN)
                 .show();
     }
 }

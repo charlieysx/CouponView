@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
+import com.yusoxn.view.bean.CouponBean;
+import com.yusoxn.view.widget.CouponView;
 
 import java.util.List;
 

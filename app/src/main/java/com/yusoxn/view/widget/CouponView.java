@@ -1,4 +1,4 @@
-package com.yusoxn.view;
+package com.yusoxn.view.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,6 +15,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.yusoxn.view.R;
+
 /**
  * 代金券的view
  * <p>
@@ -23,7 +25,7 @@ import android.widget.TextView;
 
 public class CouponView extends FrameLayout {
 
-    interface OnCVSubClickListener {
+    public interface OnCVSubClickListener {
         /**
          * view中的某个子view的点击事件
          * (这里只有一个赠送按钮的点击事件)

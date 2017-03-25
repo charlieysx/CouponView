@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.yusoxn.view.CouponView
+<com.yusoxn.view.widget.CouponView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cv_coupon"
@@ -8,4 +8,4 @@
     android:layout_margin="10dp"
     app:cv_used="false">
 
-</com.yusoxn.view.CouponView>
+</com.yusoxn.view.widget.CouponView>

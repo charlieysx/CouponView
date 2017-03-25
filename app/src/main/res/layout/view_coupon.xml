@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.yusoxn.view.CouponTopView
+        <com.yusoxn.view.widget.CouponTopView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -110,7 +110,7 @@
                 android:src="@mipmap/icon_expired"
                 android:visibility="gone"/>
 
-        </com.yusoxn.view.CouponTopView>
+        </com.yusoxn.view.widget.CouponTopView>
 
         <LinearLayout
             android:layout_width="match_parent"
