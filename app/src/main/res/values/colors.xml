@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- 代金券可以使用使的背景颜色 -->
+    <color name="cv_bgColor_y">#F5C364</color>
+    <!-- 代金券不可以使用使的背景颜色 -->
+    <color name="cv_bgColor_n">#CFCBC2</color>
+    <!-- 代金券底部日期的字体颜色 -->
+    <color name="cv_timeColor">#776F6F</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CouponView">
+        <attr name="cv_logo" format="reference"/>
+        <attr name="cv_money" format="string|reference"/>
+        <attr name="cv_bgColor" format="color|reference"/>
+        <attr name="cv_startTime" format="string|reference"/>
+        <attr name="cv_endTime" format="string|reference"/>
+        <attr name="cv_description" format="string|reference"/>
+        <attr name="cv_used" format="boolean|reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CouponView</string>
+    <string name="cv_coupon">代金券</string>
+    <string name="cv_￥">￥</string>
+    <string name="cv_give">赠送</string>
+    <string name="cv_use_time">使用期限 ：</string>
+    <string name="cv_defalut_time">xxxx.xx.xx</string>
+    <string name="cv_defalut_use">未使用</string>
+</resources>

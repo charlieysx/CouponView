@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yusoxn.view.CouponView
+        android:id="@+id/cv_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cv_used="false">
+
+    </com.yusoxn.view.CouponView>
+
+    <com.yusoxn.view.CouponView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cv_description="发单可使用"
+        app:cv_endTime="2017.02.02"
+        app:cv_logo="@mipmap/ic_launcher_round"
+        app:cv_money="100"
+        app:cv_startTime="2017.01.02"
+        app:cv_used="true">
+
+    </com.yusoxn.view.CouponView>
+
+</LinearLayout>
